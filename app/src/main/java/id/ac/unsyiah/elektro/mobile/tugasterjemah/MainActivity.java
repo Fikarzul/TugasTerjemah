@@ -42,25 +42,19 @@ public class MainActivity extends ActionBarActivity {
     }
     public void onClickTombolTerjemah(View view){
         TextView txtTulisan = (TextView) findViewById(R.id.txtTulisan);
-        bahasaIndonesia = false;
         String coba = getString(R.string.indo);
         txtTulisan.setText(coba);
-        bahasaIndonesia = true;
+
     }
      public void onClickTombolTerjemah2(View view){
         TextView txtTulisan = (TextView) findViewById(R.id.txtTulisan);
-        bahasaIndonesia = false;
         String cuma = getString(R.string.ingg);
         txtTulisan.setText(cuma);
-        bahasaIndonesia = true;
+
     }
     public void onClickTombolTerjemah3(View view){
         TextView txtTulisan = (TextView) findViewById(R.id.txtTulisan);
-        bahasaIndonesia = false;
         String cuti = getString(R.string.aceh);
         txtTulisan.setText(cuti);
-        bahasaIndonesia = true;
     }
-
-    private boolean bahasaIndonesia = false;
 }
