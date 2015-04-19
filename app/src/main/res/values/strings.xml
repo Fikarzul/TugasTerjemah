@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tugas Terjemah</string>
+
+    <string name="ingg">How</string>
+    <string name="indo">Bagaimana</string>
+    <string name="aceh">Pakriban</string>
+    <string name="tombol_terjemah">Terjemahkan B.Indonesia</string>
+    <string name="tombol_terjemah2">Terjemahkan B.Inggris</string>
+    <string name="tombol_terjemah3">Terjemahkan B.Aceh</string>
+    <string name="action_settings">Settings</string>
+</resources>
